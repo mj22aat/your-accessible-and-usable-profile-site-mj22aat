@@ -45,6 +45,7 @@ main {
 #about p {
   font-size: 1.2rem;
   line-height: 1.6;
+  text-aloign: left;
 }
 
 /* Technical Interests section styles */
