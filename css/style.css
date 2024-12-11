@@ -88,6 +88,7 @@ main {
   line-height: 1.6;
   text-align: justify;
   margin-bottom: 1rem;
+  text-align: left;
 }
 
 /* Contact section styles */
