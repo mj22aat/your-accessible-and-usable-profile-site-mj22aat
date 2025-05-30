@@ -70,6 +70,7 @@ nav a:hover, nav a[aria-current="page"] {
   justify-content: center;
   align-items: center;
   padding-top: 80px; /* Space for fixed header */
+  overflow: hidden;
 }
 
 .sticky-image {
@@ -81,6 +82,8 @@ nav a:hover, nav a[aria-current="page"] {
   background-size: cover;
   background-position: center;
   z-index: 1;
+  background-repeat: no-repeat; /* Prevents tiling */
+  object-fit: cover;            /* Optional – use if using <img> instead */
 }
 
 .scroll-text {
