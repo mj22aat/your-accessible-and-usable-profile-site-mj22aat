@@ -1,0 +1,15 @@
+Page Tested: technical.html
+Initial Test Date: 24 May 2025
+Tool Used: WAVE WebAIM
+WCAG Level Target: AA
+
+Issue #1 – Missing heading
+Error Description: fixed with changing aria-hidden holder 
+
+Fix Applied:  modalTitle.removeAttribute("aria-hidden");
+
+Rationale: Ensures now the screen can read it
+
+Issue #2. Redundant Link
+Error Description: Left it out for the site structure
+
