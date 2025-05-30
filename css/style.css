@@ -375,3 +375,12 @@ footer {
   border-radius: 20px;
   font-size: 0.9rem;
 }
+.site-title {
+  color: white;
+  text-decoration: none;
+}
+
+.site-title:hover,
+.site-title:focus {
+  text-decoration: underline;
+}
