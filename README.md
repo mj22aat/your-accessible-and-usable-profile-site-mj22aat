@@ -1,7 +1,7 @@
 # your-accessible-and-usable-profile-site-mj22aat
 Personal profile site for the Accessible and Usable Web Systems assignment.
 
-# 🌐 Meera Ja – Personal Profile Site
+# 🌐 Meera Jayakumar – Personal Profile Site
 
 This is my personal profile website developed as part of the **Accessible and Usable Web Systems** module. The site is designed to showcase my academic journey, technical interests, and a growing portfolio of work to support job and placement applications.
 
