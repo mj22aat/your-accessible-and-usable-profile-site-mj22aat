@@ -1,1 +1,65 @@
-	
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Technical Interests - Meera Jayakumar</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Meera Jayakumar</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="technical.html" aria-current="page">Technical Interests</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="scroll-container">
+    <!-- Section 1: GenAI -->
+    <section class="scroll-section" data-id="genai">
+      <div class="sticky-image" style="background-image: url('images/gen_ai.jpg');"></div>
+      <div class="scroll-text">
+        <h2>Generative AI</h2>
+        <p>I'm interested in building intelligent systems that generate creative content like text and images. My focus lies in practical applications like traffic rule generation and assistive decision-making. Generative AI represents a significant leap in how machines can augment human creativity and problem-solving capabilities. By leveraging large language models and diffusion models, we can create systems that not only replicate but also enhance human-like creative processes.</p>
+      </div>
+    </section>
+
+    <!-- Section 2: XAI -->
+    <section class="scroll-section" data-id="xai">
+      <div class="sticky-image" style="background-image: url('images/xai.jpg');"></div>
+      <div class="scroll-text">
+        <h2>Explainable AI (XAI)</h2>
+        <p>My passion lies in making AI systems more transparent and trustworthy. I want users to understand how AI makes decisions, especially in safety-critical environments like autonomous vehicles. Explainable AI techniques such as SHAP values, LIME, and attention visualization help bridge the gap between complex model internals and human understanding. This transparency is crucial for regulatory compliance, ethical AI deployment, and building user confidence in AI systems.</p>
+      </div>
+    </section>
+
+    <!-- Section 3: Quantum Computing -->
+    <section class="scroll-section" data-id="quantum">
+      <div class="sticky-image" style="background-image: url('images/quantumcomputing.jpg');"></div>
+      <div class="scroll-text">
+        <h2>Quantum Computing</h2>
+        <p>Quantum computing fascinates me for its potential in optimization, cryptography, and ML. I'm especially curious about how it could reshape large-scale AI models and simulations. Quantum algorithms like Grover's and Shor's offer exponential speedups for certain problems, while quantum machine learning explores new paradigms for data processing. The intersection of quantum computing and AI represents one of the most exciting frontiers in computer science today.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="project-modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1">
+    <div class="modal-content">
+      <button class="close-button" aria-label="Close modal">&times;</button>
+      <h2 id="modal-title"></h2>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Meera Jayakumar</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

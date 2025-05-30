@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Meera Jayakumar</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Meera Jayakumar</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="technical.html">Technical Interests</a></li>
+        <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="scroll-container">
+    <!-- Project 1 -->
+    <section class="scroll-section" id="traffic-genai">
+      <div class="sticky-image" style="background-image: url('images/traffic-genai-bg.png');"></div>
+      <div class="scroll-text">
+        <h2>Traffic Rule GenAI</h2>
+        <div class="project-content">
+          <div class="project-details">
+            <p>Generative AI for traffic rule learning and reasoning in autonomous driving systems. This project uses transformer architectures to dynamically generate traffic regulations based on real-time urban patterns.</p>
+            <ul class="project-features">
+              <li>Real-time rule generation</li>
+              <li>Context-aware regulation synthesis</li>
+              <li>Integration with autonomous vehicle APIs</li>
+            </ul>
+            <button class="button" data-project="traffic-genai">View Details</button>
+          </div>
+          <div class="project-tech">
+            <h3>Technologies Used:</h3>
+            <div class="tech-tags">
+              <span>Python</span>
+              <span>TensorFlow</span>
+              <span>GPT Architecture</span>
+              <span>ROS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project 2 -->
+    <section class="scroll-section" id="lstm-av">
+      <div class="sticky-image" style="background-image: url('images/lstm-av-bg.png');"></div>
+      <div class="scroll-text">
+        <h2>LSTM for Anomaly Detection</h2>
+        <div class="project-content">
+          <div class="project-details">
+            <p>Long Short-Term Memory network implementation for detecting anomalies in autonomous vehicle telemetry data streams with 96.3% accuracy.</p>
+            <ul class="project-features">
+              <li>Real-time sensor data processing</li>
+              <li>Early warning system integration</li>
+              <li>Visualization dashboard</li>
+            </ul>
+            <button class="button" data-project="lstm-av">View Details</button>
+          </div>
+          <div class="project-tech">
+            <h3>Technologies Used:</h3>
+            <div class="tech-tags">
+              <span>Python</span>
+              <span>PyTorch</span>
+              <span>TensorBoard</span>
+              <span>D3.js</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project 3 - Optional Add More Projects -->
+    <section class="scroll-section" id="quantum-ml">
+      <div class="sticky-image" style="background-image: url('images/quantum-ml-bg.png');"></div>
+      <div class="scroll-text">
+        <h2>Quantum ML Optimization</h2>
+        <div class="project-content">
+          <div class="project-details">
+            <p>Hybrid quantum-classical machine learning model for optimizing neural network architectures.</p>
+            <ul class="project-features">
+              <li>30% faster convergence</li>
+              <li>Quantum circuit integration</li>
+              <li>Parameter optimization</li>
+            </ul>
+            <button class="button" data-project="quantum-ml">View Details</button>
+          </div>
+          <div class="project-tech">
+            <h3>Technologies Used:</h3>
+            <div class="tech-tags">
+              <span>Qiskit</span>
+              <span>TensorFlow Quantum</span>
+              <span>Python</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="project-modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1">
+    <div class="modal-content">
+      <button class="close-button" aria-label="Close modal">&times;</button>
+      <h2 id="modal-title"></h2>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Meera Jayakumar</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

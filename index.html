@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>About Me – Meera Ja</title>
+  <title>About Me – Meera Jayakumar</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -11,19 +11,46 @@
     <h1>Meera Jayakumar</h1>
     <nav>
       <ul>
-        <li><a href="index.html">About</a></li>
+        <li><a href="index.html" aria-current="page">About</a></li>
         <li><a href="technical.html">Technical Interests</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <section class="about">
-      <img src="images/placeholder.png" alt="Profile Placeholder Image" />
-      <div>
+  <main class="scroll-container">
+    <!-- About Section -->
+    <section class="scroll-section" id="about">
+      <div class="sticky-image" style="background-image: url('images/about-bg.jpg');"></div>
+      <div class="scroll-text">
         <h2>About Me</h2>
-        <p>Hello! I'm Meera Jayakumar, a second-year student studying BSc CS at University of Hertfordshirwe. This site showcases my technical interests and projects as I pursue opportunities in the tech industry.</p>
+        <div class="about-content">
+          <img src="images/placeholder.png" alt="Meera Jayakumar profile photo" />
+          <div>
+            <p>Hello! I'm Meera Jayakumar, a second-year student studying BSc CS at University of Hertfordshire. This site showcases my technical interests and projects as I pursue opportunities in the tech industry.</p>
+            <p>My focus areas include AI, machine learning, and quantum computing applications. I'm particularly interested in how these technologies can solve real-world problems in transportation and healthcare.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Interests Section -->
+    <section class="scroll-section" id="technical">
+      <div class="sticky-image" style="background-image: url('images/technical-bg.jpg');"></div>
+      <div class="scroll-text">
+        <h2>Technical Interests</h2>
+        <p>Explore my areas of expertise and research interests in cutting-edge technologies.</p>
+        <a href="technical.html" class="button">View Technical Interests</a>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="scroll-section" id="portfolio">
+      <div class="sticky-image" style="background-image: url('images/portfolio-bg.jpg');"></div>
+      <div class="scroll-text">
+        <h2>My Portfolio</h2>
+        <p>Discover my projects and implementations in AI, machine learning and quantum computing.</p>
+        <a href="portfolio.html" class="button">View Portfolio</a>
       </div>
     </section>
   </main>
@@ -31,5 +58,7 @@
   <footer>
     <p>&copy; 2025 Meera Jayakumar</p>
   </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
